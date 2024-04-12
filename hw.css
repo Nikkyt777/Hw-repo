@@ -1,0 +1,39 @@
+/* Author: [Nicole Niles-Springer]
+   Date: [04-10-2024] */
+
+/* Implementation of Adjacent Sibling Combinator (+) */
+h3 + p {
+  animation: spellFlourish 0.5s ease;
+  
+}
+
+/* Implementation of General Sibling Combinator (~) */
+h3 ~ p {
+  border-left: 3px solid #8e44ad;
+  padding-left: 10px;
+  margin-left: 10px;
+  border:solid 1px black;
+
+}
+
+/* Implementation of Child Combinator (>) */
+body > h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+/* Implementation of Descendant Combinator ( ) */
+p {
+  background-color: #f39c12;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Keyframe for Adjacent Sibling Combinator (+) Animation */
+@keyframes spellFlourish {
+  0% { opacity: 0; transform: translateX(-10px); }
+  100% { opacity: 1; transform: translateX(0); }
+}

@@ -1,0 +1,40 @@
+/*(#=div ID.. .=class)
+/*H1*/
+h1{
+    color:rgb(42, 165, 42);
+    text-align: center;
+    font-size: medium;
+    border-style: solid; background-color:white;}
+
+/*H2*/   
+h2{color: rgb(255, 0, 89); text-align: right;border-style: solid;}
+
+/*H3*/
+h3{color:rgb(207, 218, 225); text-decoration:underline;border-style: solid; background-color: rgb(50, 42, 165);}
+
+/* Set font size of PARAGRAPH to 16 pixels */
+p {
+    font-size: 16px; border-style: solid;}
+
+/* Apply a consistent BORDER to all elements */
+* { 
+    border: 1px solid black;
+    border-width: 3px;
+    border-style: dotted;background-color:white;}
+
+/* Define styles for a CSS class named 'my-class' */
+.one, .two {
+    color: rgb(212, 45, 148); 
+    font-size: 18px;
+    font-weight: bold;}
+
+/* Define styles for a CSS class named 'my-class2' */
+#my-class2 {
+    color:black;background-color: brown;text-align: center;}
+
+/* Define styles for a CSS class named 'my-class3' */
+.my-class3 {
+    color: chocolate;
+    font-size: xx-large;
+    font-weight: 600;
+    font-style: italic;}
